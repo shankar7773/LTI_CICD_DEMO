@@ -1,9 +1,8 @@
 <html>
 <body>
-<h1><font color='red'>Welcome to Ashok IT - Best Software Training Institute in India <font></h1>
-<h2>Learn Here.. Lead Anywhere..!! </h2>
+<h1><font color='red'>Welcome to my Project... LTI!!! <font></h1>
 
-<a href="https://ashokitech.com/online-training-schedules">Click Here To See Ashok IT Training Schedules</a>
+<a href="https://www.ltimindtree.com/">Click Here To Visit LTIMindtree</a>
 
 </body>
 </html>
