@@ -6,5 +6,6 @@ ARG artifact_id
 ARG version
 ARG build_no
 ARG pass
-RUN wget --no-check-certificate --user=admin --password=$pass http://$host_name/repository/project2/project2/$artifact_id/$version-$build_no/$artifact_id-$version-$build_no.war
+ARG user_nex
+RUN wget --no-check-certificate --user=$user_nex --password=$pass http://$host_name/repository/project2/project2/$artifact_id/$version-$build_no/$artifact_id-$version-$build_no.war
 RUN mv $artifact_id-$version-$build_no.war /usr/local/tomcat/webapps/
